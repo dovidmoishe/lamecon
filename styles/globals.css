@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #EDEAE0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../public/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+p,span {
+  font-family: poppins;
+}
