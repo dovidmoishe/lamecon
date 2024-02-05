@@ -13,6 +13,6 @@ body {
   src: url(../public/fonts/Poppins/Poppins-Bold.ttf);
 }
 
-p,span {
+p,span, a {
   font-family: poppins;
 }

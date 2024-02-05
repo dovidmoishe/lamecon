@@ -3,21 +3,7 @@ import { Typography, Button } from "antd";
 
 const Hero: React.FC = () => {
     const { Text } = Typography;
-    // const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    // const images = ["../../public/images/nuturing1.jpeg", "../../public/images/nuturing2.jpeg", "../../public/images/nuturing3.jpeg"]; // Add your image URLs or paths here
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    //     }, 5000); // Change 5000 to adjust the interval in milliseconds
-    //     return () => clearInterval(interval);
-    // }, [images.length]);
-
-    // const backgroundImageStyle = {
-    //     backgroundImage: `url(${images[currentImageIndex]})`,
-    //     backgroundSize: "cover",
-    //     backgroundPosition: "center",
-    // };
+   
     return (
         <div className="h-screen w-full relative">
             <div className="absolute inset-0 flex pt-15 flex-col justify-center items-center text-black bg-opacity-10 h-screen px-2">

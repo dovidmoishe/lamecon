@@ -16,7 +16,9 @@ export default function Home() {
       <Hero />
       <CoreValues />
       <Abouts />
-      <Projects />
+      <div className="">
+        <Projects />
+      </div>
       <AppFooter />
     </div>
   )
