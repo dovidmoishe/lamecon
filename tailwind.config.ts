@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        africa: "url('https://i.ibb.co/qgy6RSg/Africa.png')",
+        africa: "url('https://i.imgur.com/UgyaBJ5.jpeg')",
       },
     },
   },

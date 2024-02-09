@@ -11,7 +11,7 @@ const { Text } = Typography
 
 const AppFooter = () => {
   return (
-    <Footer className="bg-transparent text-black p-4">
+    <Footer className="bg-black text-white p-4">
       <div className="flex flex-wrap flex-col items-center md:justify-between md:flex-row text-center gap-5">
         <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 flex items-center justify-center">
           <Image src={ImageLogo} alt="Company Logo" width={100} height={100} />
@@ -35,7 +35,7 @@ const AppFooter = () => {
           </div>
 
           <div className="">
-            <Text className="text-sm">
+            <Text className="text-white text-sm">
              Engr. Auwal Patapa Street,
              Opposite Malkalgo Block Industry, 
              Lafia East, Lafia. </Text>

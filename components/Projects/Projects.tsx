@@ -59,9 +59,10 @@ const ProjectCard = ({ ImageSrc, Name, text }: IProjectProjects) => {
 }
 export default function Projects(props: IAppProps) {
     return (
-        <div className='mx-3 text-center ' id='project'>
-            <div className="mb-8">
-                <Text className="text-3xl">Projects</Text>
+        <div className='mx-3 text-center' id='project'>
+            <div className="mb-8 flex flex-col justify-center">
+                <Text className="text-5xl text-red-800 pb-3">WHAT WE DO</Text>
+                <Text className='text-sm text-grey-500' >Focused on supporting the African Youth and Adolescents, with concentrated mentorship, and focused learning to explore ideas, innovations, and contents that the average African young persons can use to impact the Socioeconomic context</Text>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
                 <ProjectCard ImageSrc={Project5} Name={"Lafia Reading Club"} text={"Building the reading culture "}></ProjectCard>
@@ -70,7 +71,7 @@ export default function Projects(props: IAppProps) {
                 <ProjectCard ImageSrc={Project5} Name={"Research and Evaluation"} text={"Dive into advanced research and data analysis with our course, Introduction to Research and Data Analysis (Evaluation) Perfect for students, academics, researchers, and market women, it equips you with essential skills to understand and analyze phenomena effectively. Elevate your research proficiency now"}>
 
                 </ProjectCard>
-                <ProjectCard ImageSrc={Project5} Name={"LAMECON Tech-Hub"} text={"Text project"}></ProjectCard>
+                <ProjectCard ImageSrc={Project5} Name={"LAMECON Tech-Hub"} text={"The LAMECON Tech-hub is aimed at establishing a collaborative space for technology enthusiasts to foster knowledge sharing, networking, and innovations. There is a 60% increase in  demand for Tech and digital Skills in the labour market today."}></ProjectCard>
                 <ProjectCard ImageSrc={Project5} Name={"Electronic Data Collection Collection and Analytical Tools"} text={"Text project"}></ProjectCard>
 
             </div>
