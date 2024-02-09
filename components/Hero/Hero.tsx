@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                 alt="hero_img"
             />
             <div className="absolute inset-0 flex flex-col items-start justify-center px-8 ">
-                <h1 className="text-5xl text-center font-bold">Nuturing Africa's Future</h1>
+                <h1 className="text-5xl text-center font-bold">Nuturing Africa&apos;s Future</h1>
                 <p className="mt-3 text-lg">Together we make the world a better place</p>
                 <div className="mt-8">
                     <button className="px-8 py-3 bg-blue-500 text-white font-bold rounded-full">
