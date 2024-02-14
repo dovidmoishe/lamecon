@@ -10,9 +10,14 @@ body {
 
 @font-face {
   font-family: poppins;
-  src: url(../public/fonts/Poppins/Poppins-Bold.ttf);
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 }
 
-p,span, a {
-  font-family: poppins;
+p,span, a, h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }

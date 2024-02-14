@@ -23,7 +23,7 @@ const items = [
     },
     {
         id: 2,
-        name: "",
+        name: "Values",
         section: "values",
     },
     {
@@ -71,6 +71,7 @@ function AppMenu(props: { isinline: boolean, onLinkClick: () => void }): JSX.Ele
                     <Text>
                         <span className="ml-2 font-bold">+2349136088877</span>
                     </Text>
+                    <Text className="ml-2 font-bold">Lameconprogram@gmail.com</Text>
                 </div>
             </div>
         </div>

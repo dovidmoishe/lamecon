@@ -52,7 +52,7 @@ const GoalContainer = ({ Icon, Name, text }: GoalInterface) => {
             <div className="flex items-center justify-center p-3 ">
                 {Icon}
             </div>
-            <Text className="text-xl mt-5 text-center">{Name}</Text>
+            <Text className="text-xl mt-5 text-center font-semibold">{Name}</Text>
             <div className="mt-7 text-center w-52  md:w-fit ">
                 <Text className="text-gray-500">{text}</Text>
             </div>
@@ -61,10 +61,10 @@ const GoalContainer = ({ Icon, Name, text }: GoalInterface) => {
 };
 const CoreValues: React.FC = () => {
     return (
-        <div id="values">
-            <h1 className="text-4xl font-bold justify-center text-center  mt-4">
+        <div id="values" className="text-center mt-4">
+            <Text className=" uppercase text-4xl font-bold text-center  ">
                 Our Core values
-            </h1>
+            </Text>
             <div className="flex flex-col justify-between items-center md:flex-row  md:items-stretch md:justify-space-around m-7 ">
                 {goals.map((goal) => (
                     <GoalContainer Icon={goal.Icon} Name={goal.Name} text={goal.text} key={goal.id} />
