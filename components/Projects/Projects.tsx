@@ -17,7 +17,7 @@ interface IProjectProjects {
 
 const ProjectCard = ({ ImageSrc, Name, text }: IProjectProjects) => {
     return (
-        <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-2 ml-10 hover:scale-105 duration-200 transform-gpu '>
+        <div className='w-full  p-2 ml-10 hover:scale-105 duration-200 transform-gpu '>
             <Card
                  hoverable
                  cover={<Image alt="Project Image" src={ImageSrc.src} className="rounded-t-3xl" />}
