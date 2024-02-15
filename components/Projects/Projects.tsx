@@ -19,11 +19,12 @@ const ProjectCard = ({ ImageSrc, Name, text }: IProjectProjects) => {
     return (
         <div className='w-full  p-2 ml-10 hover:scale-105 duration-200 transform-gpu '>
             <Card
-                 hoverable
-                 cover={<Image alt="Project Image" src={ImageSrc.src} className="rounded-t-3xl" />}
-                 bodyStyle={{ padding: '16px 20px' }}
-                 style={{ width: '300px', height: '420px' }}
-                 >
+                hoverable
+                cover={<Image alt="Project Image" src={ImageSrc.src} className="rounded-t-3xl" width={1000}
+                    height={1000} />}
+                bodyStyle={{ padding: '16px 20px' }}
+                style={{ width: '300px', height: '420px' }}
+            >
                 <Card.Meta title={Name} description={text} />
             </Card>
         </div>
