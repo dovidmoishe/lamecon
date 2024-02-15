@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Typography, Button } from "antd";
-import Africa from '...\Hero\Africa.png'
 import Image from 'next/image'
-import heroCSS from '@/styles/Hero.module.css'
-
 
  
 const Hero: React.FC = () => {
     const { Text } = Typography;
 
     return (
-        <div className={`h-screen w-full relative bg-africa ${heroCSS.hero}`}>
+        <div className={`h-screen w-full relative`}>
             <Image
                 className="w-full h-full bg-cover object-cover z-40 hidden md:block"
                 src={`https://i.imgur.com/upNsB54.jpeg`}

@@ -21,3 +21,8 @@ p,span, a, h1 {
   font-variation-settings:
     "slnt" 0;
 }
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  
+}
