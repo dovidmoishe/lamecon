@@ -4,7 +4,7 @@ import { StaticImageData } from 'next/image';
 import Image from 'next/image';
 import Link from 'next/link';
 import BasicICT from './BasicICT.jpeg'
-import TechHub from './TechHub.jpg'
+import TechHub from './TechHub.jpeg'
 import Reading from './Reading.jpeg'
 
 const { Text } = Typography;
