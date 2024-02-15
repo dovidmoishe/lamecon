@@ -11,12 +11,12 @@ const Hero: React.FC = () => {
 
     return (
         <div className={`h-screen w-full relative bg-africa ${heroCSS.hero}`}>
-            <img
+            <Image
                 className="w-full h-full bg-cover object-cover z-40 hidden md:block"
                 src={`https://i.imgur.com/upNsB54.jpeg`}
                 alt="hero_img"
             />
-            <img
+            <Image
                 className="w-full h-full bg-cover object-cover z-40 md:hidden  "
                 src={`https://i.imgur.com/Nkg5zhj.jpeg`}
                 alt="hero_img"

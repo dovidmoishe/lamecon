@@ -20,7 +20,7 @@ const ProjectCard = ({ ImageSrc, Name, text }: IProjectProjects) => {
         <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-2 ml-10 hover:scale-105 duration-200 transform-gpu '>
             <Card
                  hoverable
-                 cover={<img alt="Project Image" src={ImageSrc.src} className="rounded-t-3xl" />}
+                 cover={<Image alt="Project Image" src={ImageSrc.src} className="rounded-t-3xl" />}
                  bodyStyle={{ padding: '16px 20px' }}
                  style={{ width: '300px', height: '420px' }}
                  >
