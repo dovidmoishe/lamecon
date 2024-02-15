@@ -12,11 +12,13 @@ const Hero: React.FC = () => {
                 className="w-full h-full bg-cover object-cover z-40 hidden md:block"
                 src={`https://i.imgur.com/upNsB54.jpeg`}
                 alt="hero_img"
+                layout="fill"
             />
             <Image
                 className="w-full h-full bg-cover object-cover z-40 md:hidden  "
                 src={`https://i.imgur.com/Nkg5zhj.jpeg`}
                 alt="hero_img"
+                layout="fill"
             />
             <div className="absolute inset-0 flex flex-col md:items-start justify-center items-center px-8 ">
                 <h1 className="text-5xl font-bold text-white md:text-black">Nuturing Africa&apos;s Future</h1>

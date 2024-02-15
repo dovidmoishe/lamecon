@@ -38,11 +38,11 @@ export default function Projects() {
                 <p className='font-normal text-md text-grey-500'>Focused on supporting the African Youth and Adolescents, with concentrated mentorship, and focused learning to explore ideas, innovations, and contents that the average African young persons can use to impact the Socioeconomic context</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-2">
-                <ProjectCard ImageSrc={Reading} Name={"Lafia Reading Club"} text={"Building the reading culture"} />
-                <ProjectCard ImageSrc={BasicICT} Name={"Basic ICT for Public Secondary schools"} text={"The course BASIC ICT TRAINING is an initiative of LAMECON"} />
+                <ProjectCard ImageSrc={Reading} Name={"Lafia Reading Club"} text={"It is targeted at improving reading culture and literacy of Public Secondary School Students through edutainment."} />
+                <ProjectCard ImageSrc={BasicICT} Name={"Basic ICT for Public Secondary schools"} text={"It is designed to equip Public Secondary School Students with basic computing skills."} />
                 {/* <ProjectCard ImageSrc={Project5} Name={"Monitoring and Evaluation"} text={"Monitoring and Evaluation are fundamental processes that help improve"} />
                 <ProjectCard ImageSrc={Project5} Name={"Research and Evaluation"} text={"Dive into advanced research and data analysis with our course, Introduction"} /> */}
-                <ProjectCard ImageSrc={TechHub} Name={"LAMECON Tech-Hub"} text={"The LAMECON Tech-hub is aimed at establishing a collaborative space for technology."} />
+                <ProjectCard ImageSrc={TechHub} Name={"LAMECON Tech-Hub"} text={"It is a safe space for teenagers to grow their tech desires and solve real life problems."} />
                 {/* <ProjectCard ImageSrc={Project5} Name={"Electronic Data Collection Collection and Analytical Tools"} text={"Text project"} /> */}
             </div>
             <div className='mt-6 mb-6'>
