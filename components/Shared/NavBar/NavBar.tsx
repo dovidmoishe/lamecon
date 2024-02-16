@@ -66,11 +66,15 @@ function AppMenu(props: { isinline: boolean, onLinkClick: () => void }): JSX.Ele
                 ))}
             </div>
             <div className=" md:hidden">
-                <div className="flex items-center ml-4">
-                    <FaPhone style={{ width: '20px', height: '20px' }} />
-                    <Text>
-                        <span className="ml-2 font-bold">+2349136088877</span>
-                    </Text>
+                <div className="flex flex-col items-center">
+
+                    <div className="flex items-center ml-4">
+                        <FaPhone style={{ width: '20px', height: '20px' }} />
+                        <Text>
+                            <span className="ml-2 font-bold">+2349136088877</span>
+                        </Text>
+
+                    </div>
                     <Text className="ml-2 font-bold">Lameconprogram@gmail.com</Text>
                 </div>
             </div>

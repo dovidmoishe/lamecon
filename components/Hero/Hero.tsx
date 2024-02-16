@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
             />
             <Image
                 className="w-full h-full bg-cover object-cover  md:hidden  "
-                src={`https://i.imgur.com/Nkg5zhj.jpeg`}
+                src={`https://i.imgur.com/sQIFcoU.jpeg`}
                 alt="hero_img"
                 layout="fill"
             />/
