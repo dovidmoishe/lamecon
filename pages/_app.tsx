@@ -9,15 +9,18 @@ const theme: ThemeConfig = {
   token: {
     fontSize: 16,
     colorPrimary: '#fffff',
-    fontFamily: 'poppins',
+    fontFamily: 'Inter',
   },
 };
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
-      <ConfigProvider theme={theme}>
-        <Component {...pageProps} />
-      </ConfigProvider>
-    </Layout>
+    <div style={{ width: "100%", marginRight: "0" }}>
+
+      <Layout>
+        <ConfigProvider theme={theme}>
+          <Component {...pageProps} />
+        </ConfigProvider>
+      </Layout>
+    </div>
   )
 };

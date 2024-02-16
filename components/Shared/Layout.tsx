@@ -6,10 +6,10 @@ interface ILayoutProps {
 }
 const Layout: React.FC<ILayoutProps> = ({ children }) => {
   return (
-    <>
+    <div >
       <NavBar />
       {children}
-    </>
+    </div>
   );
 };
 
